@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c16da9d-bbd4-406d-9e65-d5e31f584dbb" name="Changes" comment="Printed letter 'P'">
+    <list default="true" id="2c16da9d-bbd4-406d-9e65-d5e31f584dbb" name="Changes" comment="Repeating numbers in array.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="onother" />
+        <entry key="$PROJECT_DIR$" value="minior" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674474692072</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repeating numbers in array.">
+      <created>1674480078774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674480078774</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Min &amp; max value calculator in array." />
     <MESSAGE value="Printed letter 'P'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printed letter 'P'" />
+    <MESSAGE value="Repeating numbers in array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeating numbers in array." />
   </component>
 </project>
