@@ -1,42 +1,53 @@
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main{
-    public static void main(String[]args){
+    public static void main(String []args){
+        Random rand =new Random();
+        int number = rand.nextInt(100);
+        int selected;
+        int []wrong=new int[5];
+        boolean isWin=false;
+        /*
+        @author
+               Muhammed Solmaz
+         */
+
         Scanner inp =new Scanner(System.in);
-        System.out.print("Enter the number of row: ");
-        int row=inp.nextInt();
+        int right=5;
+        while(right>0){
+            System.out.print("Enter your guess: ");
+            selected= inp.nextInt();
 
-        System.out.print("Enter the number of colon: ");
-        int col=inp.nextInt();
-        int [][]list=new int[row][col];
-        int[][]listTranspoze=new int[col][row];
-        for (int i=0;i< list.length;i++){
-            for (int j=0;j<list[0].length;j++){
-                list[i][j]=inp.nextInt();
+            if (selected<0||selected>99){
+                System.out.println("Please enter the number between 0-100: ");
+                continue;
             }
-        }
-        System.out.println("Matris :");
-        for (int[]a:list){
-            for (int b:a){
-                System.out.print(b+" \t");
-            }
-            System.out.println();
-        }
-        System.out.println("Transpoze :");
-        for(int i=0;i< list.length;i++){
-            for (int j =0; j<list[0].length;j++){
-                listTranspoze[j][i]=list[i][j]  ;
-            }
-        }
+            if(selected==number){
+                System.out.println("Congratulations, right guess: "+selected);
+                isWin=true;
+                break;
+            }else {
 
-        for (int[] a: listTranspoze){
-            for (int b: a){
-                System.out.print(b+" \t");
-            }
-            System.out.println();
-        }
 
+                System.out.println("Wrong number you're entered.");
+                if(selected>number){
+                    System.out.println(selected+" is bigger than our secret number.");
+                }else{
+                    System.out.println(selected+" is smaller than our secret number. ");
+                }
+                wrong[right-1]=selected;
+                right--;
+                System.out.println("Remaining right: "+right);
+                System.out.println("---------------------------");
+            }
+        }
+        if(!isWin){
+            System.out.println("You're failed.");
+            System.out.println("Your guesses: "+ Arrays.toString(wrong ));
+        }
+        System.out.println("Secret number is: "+number);
 
     }
 }
