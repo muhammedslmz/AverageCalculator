@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c16da9d-bbd4-406d-9e65-d5e31f584dbb" name="Changes" comment="Matris &amp; Transpoze">
+    <list default="true" id="2c16da9d-bbd4-406d-9e65-d5e31f584dbb" name="Changes" comment="Guess game ready.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="onmajor" />
+        <entry key="$PROJECT_DIR$" value="inother" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674578220040</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Guess game ready.">
+      <created>1674658323248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674658323248</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +128,8 @@
     <MESSAGE value="All object are taken by users." />
     <MESSAGE value="Frequency of elements in the array." />
     <MESSAGE value="Matris &amp; Transpoze" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matris &amp; Transpoze" />
+    <MESSAGE value="Guess game ready." />
+    <option name="LAST_COMMIT_MESSAGE" value="Guess game ready." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
